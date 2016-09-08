@@ -1,0 +1,17 @@
+{application, gun_test,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { gun_test_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    gun
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
